@@ -1,0 +1,38 @@
+/****** CORES *******/
+:root {
+  --section-color: #49545F;
+  --element-color: #FFFFFF;
+  --content-color: #FFA500;
+}
+
+/****** BODY *******/
+body {
+  background-color: var(--section-color);
+}
+
+/****** CABEÇALHO *******/
+.img-perfil {
+  width: 240px;
+  height: 240px;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 5px solid var(--content-color);
+  background: url(../assets/img/paulo.png) no-repeat;
+}
+
+.cabecalho {
+  color: var(--element-color);
+  padding: 10px 0 10px 0;
+  background-color: var(--section-color);
+  border-bottom: 3px solid var(--content-color);
+}
+
+h1, h3 {
+  font-weight: 100;
+}
+
+.cabecalho hr {
+  height: 2px;
+  color: var(--content-color);
+  background-color: var(--content-color);
+}
