@@ -36,3 +36,99 @@ h1, h3 {
   color: var(--content-color);
   background-color: var(--content-color);
 }
+
+/****** SIDEBAR *******/
+.sidebar {
+  padding: 0;
+  width: 400px;
+  color: var(--element-color);
+  background-color: var(--section-color);
+}
+
+.sidebar label {
+  margin-bottom: 0;
+  padding-left: 30px;
+}
+
+.habilidades {
+  width: 300px;
+  height: 80px;
+}
+
+.habilidades label{
+  padding-left: 120px !important;
+  padding-top: 25px;
+  margin-left: -100px;
+  font-weight: bold;
+  font-size: 20px;
+  color: var(--element-color);
+}
+
+.bloco-habilidades {
+  margin-top: 10px;
+}
+
+.progress {
+  border-radius: 0;
+  margin: 0 15px 0 30px;
+}
+
+.nivel {
+  background-color: var(--content-color);
+}
+
+.idiomas {
+  width: 300px;
+  height: 70px;
+}
+
+.idiomas label {
+  padding-left: 120px !important;
+  padding-top: 25px;
+  font-size: 25px;
+  margin-left: -100px;
+  font-weight: bold;
+  color: var(--element-color);
+}
+
+.bloco-idioma {
+  margin-top: 18px;
+}
+
+.contato {
+  width: 300px;
+  height: 70px;
+}
+
+.contato label {
+  padding-left: 120px !important;
+  padding-top: 25px;
+  font-size: 25px;
+  margin-left: -100px;
+  font-weight: bold;
+  color: var(--element-color);
+}
+
+.bloco-contatos {
+  margin-top: 18px;
+}
+
+.icone-contatos {
+  margin-left: 35px;
+}
+
+.itens-contatos {
+  padding-left: 120px !important;
+  padding-top: 25px;
+  margin-left: -120px;
+  font-weight: bold;
+  font-size: 11px;
+  text-decoration: none;
+  color: var(--element-color);
+}
+
+.itens-contatos:hover {
+  text-decoration: none;
+  transition: filter 0.4s ease;
+  color: var(--link-color);
+}
