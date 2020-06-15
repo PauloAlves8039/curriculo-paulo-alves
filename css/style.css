@@ -2,8 +2,9 @@
 :root {
   --section-color: #49545F;
   --element-color: #FFFFFF;
-  --content-color: #FFA500;
+  --content-color: #00BFFF;
   --central-color: #FFFAFA;
+  --link-color: #B5B5B5;
 }
 
 /****** BODY *******/
