@@ -3,6 +3,7 @@
   --section-color: #49545F;
   --element-color: #FFFFFF;
   --content-color: #FFA500;
+  --central-color: #FFFAFA;
 }
 
 /****** BODY *******/
@@ -131,4 +132,41 @@ h1, h3 {
   text-decoration: none;
   transition: filter 0.4s ease;
   color: var(--link-color);
+}
+
+/****** CONTEÚDO *******/
+.centralbar {
+  padding: 0;
+  color: var(--section-color);
+  background-color: var(--central-color);
+}
+
+.centralbar label {
+  margin-bottom: 0;
+  font-weight: bold;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.content {
+  padding: 20px;
+  color: var(--section-color);
+  background-color: var(--central-color);
+}
+
+.content hr {
+  height: 2px;
+  color: var(--section-color);
+  background-color: var(--section-color);
+}
+
+.icons {
+  margin-top: -18px;
+  margin-left: -15px;
+  padding: 10px;
+}
+
+.titutos {
+  font-size: 24px;
+  font-weight: 500;
 }
