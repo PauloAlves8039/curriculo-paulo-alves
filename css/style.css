@@ -62,7 +62,7 @@ h1, h3 {
   padding-top: 25px;
   margin-left: -100px;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 25px;
   color: var(--element-color);
 }
 
@@ -73,6 +73,7 @@ h1, h3 {
 .progress {
   border-radius: 0;
   margin: 0 15px 0 30px;
+  max-height: 10px;
 }
 
 .nivel {
