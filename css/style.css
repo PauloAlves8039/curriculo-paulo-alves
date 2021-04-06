@@ -1,10 +1,10 @@
 /****** CORES *******/
 :root {
-  --section-color: #49545F;
-  --element-color: #FFFFFF;
-  --content-color: #00BFFF;
-  --central-color: #FFFAFA;
-  --link-color: #B5B5B5;
+  --section-color: #49545f;
+  --element-color: #ffffff;
+  --content-color: #00bfff;
+  --central-color: #fffafa;
+  --link-color: #b5b5b5;
 }
 
 /****** BODY *******/
@@ -29,7 +29,8 @@ body {
   border-bottom: 3px solid var(--content-color);
 }
 
-h1, h3 {
+h1,
+h3 {
   font-weight: 100;
 }
 
@@ -57,7 +58,7 @@ h1, h3 {
   height: 80px;
 }
 
-.habilidades label{
+.habilidades label {
   padding-left: 120px !important;
   padding-top: 25px;
   margin-left: -100px;
