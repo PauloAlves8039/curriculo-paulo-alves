@@ -14,8 +14,8 @@ body {
 
 /****** CABEÇALHO *******/
 .img-perfil {
-  width: 240px;
-  height: 240px;
+  width: 255px;
+  height: 255px;
   margin: 0 auto;
   border-radius: 50%;
   border: 5px solid var(--content-color);
